@@ -85,7 +85,7 @@ for row in range(sheet.nrows):
 
     # スクリーンサイズ設定
     page_height = driver.execute_script('return document.body.scrollHeight')
-    driver.set_window_size(375, 720)
+    driver.set_window_size(375, page_height)
 
     ## 遷移直後だと崩れた状態でスクショされる可能性があるため、3秒待機
     time.sleep(3)
