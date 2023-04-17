@@ -14,7 +14,7 @@ https://www.python.org/downloads/
 
 ターミナルを開いて、以下のコマンドを実行。
 ```
-$ python —v
+$ python --version
 ```
 バージョンが表示されたらOK。
 
